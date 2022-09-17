@@ -1,31 +1,31 @@
 def add_surname(d):
 
-    with open ('book.csv', 'a') as file:
-        file.write('Фамилия: {}\n'
+    with open ('telefon_book.bd', 'a') as file:
+        file.write('surname: {}\n'
         
     .format (d))
 
 def add_name(d):
 
-    with open ('book.csv', 'a') as file:
-        file.write('Имя: {}\n'
+    with open ('telefon_book.bd', 'a') as file:
+        file.write('name: {}\n'
  .format (d))
 
 def add_number (d):
 
 from tabulate import tabulate1
 
-prinr = ["Surname", "Name", "Phone number", "Discription"]
+prinr = ["Surname", "Name", "Phone_number", "Discription"]
 
 
 def add_data(d):
-    with open ('book.csv', 'a') as file:
-        file.write('Номер телефона: {}\n'
+    with open ('telefon_book.bd', 'a') as file:
+        file.write('phone_number: {}\n'
  .format (d))
 def add_description(d):
     
         file.write (tabulate(d, headers ='head', tablefmt="grid"·))
 
 
-    with open ('book.csv', 'a') as file:
-        file.write('Описание: {}\n'.format (d))
+    with open ('telefon_book.bd', 'a') as file:
+        file.write('discripion: {}\n'.format (d))
